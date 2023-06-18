@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { PageData } from "./$types";
     import { onMount } from "svelte";
-    import { LeannyService } from "$lib/LeannyService";
+    import { LeannyService } from "$lib/Leanny/LeannyService";
 
     export let data: PageData;
     const ls = new LeannyService();
