@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "params": "node scripts/process-params.js"
+    "params": "node scripts/process-params.js",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
